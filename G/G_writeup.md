@@ -12,7 +12,7 @@ Download the file `G_handout-20240213T184008Z-001.zip` Extracting it reveals the
 - Open Ghex or HexEdit to view the png magic numbers 
 Syntax for running Ghex is:
 `ghex <file_name>`
-![ss of ghex png error](ghex_png)
+![ss of ghex png error](/IMG/ghex_png)
 -Notice the first line PNG magic number is `89 50  4E 47`,but this file has `89 50 6E 47`, make changes accordingly and save it....
 - Now "pngcheck" the image file to know further errors in the image 
 Syntax is `pngcheck <file_name>`
