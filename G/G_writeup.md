@@ -55,8 +55,13 @@ change `Iend` to `IEND` and save the file
 
 
 -In this Matlab Screenshot u will find a cipher `BGJTWHLAGVFBGLFKHSWQGQUJWWPLAUHHDWQCGL`
+
+
+
 To find out which cipher you can check out [Dcode](https://www.dcode.fr/cipher-identifier)
 -After analyzing u will know this is Cipher is Fractionated Morse Cipher
 AFTER decoding the u will get `FLAGGHEXFRACTIONATEDMORSEENCODER`
 change according to the Flag format
+
+
 -The flag is `FLAG{GHEXFRACTIONATEDMORSEENCODER}`
