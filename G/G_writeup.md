@@ -1,7 +1,11 @@
 ## G handout --(100 points)
 Download the file `G_handout-20240213T184008Z-001.zip` Extracting it reveals the following:
+
+
 ├── G_handout
-    └── Screenshot (722).png
+
+
+└── Screenshot (722).png
  
  Lets check `Screenshot (722).png`:
  - `cd` into the directory where the file is downloaded
