@@ -52,7 +52,9 @@ change `Iend` to `IEND` and save the file
 ![ss of Iend error](IMG/IEnd_error.png)
 
   
-- Open the image u will find 
+- Open the image u will find
+
+  
 ![ss of the final image](IMG/final_image.png)
 
 
