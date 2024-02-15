@@ -39,15 +39,17 @@ Syntax is `pngcheck <file_name>`
 - We get another error but this time related to the `IDAT` chunk
 
 
-- ![ss of the IDaT error](IMG/IDaT_error.png)
+![ss of the IDaT error](IMG/IDaT_error.png)
 
-- 
+
 - Open Ghex and correct the chunk from `IDaT` to `IDAT`
 `pngcheck` the image again we receive the same error i.e related to `IDaT` chunk
 - Open Ghex using the hotkey `ctrl+f` search for the chunk `IDaT` and replace all of them to `IDAT`
 - `pngcheck` the image again u will get a different error this time related to the `Iend` chunk
 change `Iend` to `IEND` and save the file
-- ![ss of Iend error](IMG/IEnd_error.png)
+
+
+![ss of Iend error](IMG/IEnd_error.png)
 
   
 - Open the image u will find 
@@ -59,6 +61,7 @@ change `Iend` to `IEND` and save the file
 
 
 To find out which cipher you can check out [Dcode](https://www.dcode.fr/cipher-identifier)
+
 -After analyzing u will know this is Cipher is Fractionated Morse Cipher
 AFTER decoding the u will get `FLAGGHEXFRACTIONATEDMORSEENCODER`
 change according to the Flag format
