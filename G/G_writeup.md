@@ -5,17 +5,24 @@ Download the file `G_handout-20240213T184008Z-001.zip` Extracting it reveals the
  
  Lets check `Screenshot (722).png`:
  - `cd` into the directory where the file is downloaded
- - when we open the image we get and error 
+ - when we open the image we get and error
+
+
  ![A ss of the error](IMG/error1.png)
 
 
 - in terminal use `file Screenshot (722).png` we will get:
+
+  
 ![ss of the file error ](IMG/File_error.png)
 
 
 - Open Ghex or HexEdit to view the png magic numbers 
 Syntax for running Ghex is:
 `ghex <file_name>`
+
+
+
 ![ss of ghex png error](IMG/ghex_png.png)
 
 
@@ -23,11 +30,15 @@ Syntax for running Ghex is:
 - Now "pngcheck" the image file to know further errors in the image 
 Syntax is `pngcheck <file_name>`
 - we get the following error:
+
+
 ![ss of the IHdR error](IMG/IHdR_error.png)
 
 
 - To correct this open Ghex/HexEdit and find the IHDR chunk  and change it from `IHdR` to `IHDR`, save it and `pngcheck` it again
-- We get another error but this time related to the `IDAT` chunk 
+- We get another error but this time related to the `IDAT` chunk
+
+
 - ![ss of the IDaT error](IMG/IDaT_error.png)
 
 - 
